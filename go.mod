@@ -3,7 +3,7 @@ module gin-plus-demo
 go 1.18
 
 require (
-	github.com/archine/gin-plus/v2 v2.1.0
+	github.com/archine/gin-plus/v2 v2.1.4
 	github.com/archine/ioc v1.0.1
 	github.com/gin-gonic/gin v1.9.0
 	github.com/sirupsen/logrus v1.9.0

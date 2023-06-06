@@ -24,7 +24,7 @@ func (u *UserController) User(ctx *gin.Context) {
 // @POST(path="/") 添加用户
 func (u *UserController) AddUser(ctx *gin.Context) {
 	var arg model.User
-	if resp.ParamValid(ctx, ctx.ShouldBindJSON(&arg), &arg) {
+	if !resp.ParamValidation(ctx, &arg) {
 		return
 	}
 	u.UserMapper.AddUser(&arg)
