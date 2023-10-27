@@ -2,8 +2,8 @@ package controller
 
 import (
 	"gin-plus-demo/model"
-	"github.com/archine/gin-plus/v2/mvc"
-	"github.com/archine/gin-plus/v2/resp"
+	"github.com/archine/gin-plus/v3/mvc"
+	"github.com/archine/gin-plus/v3/resp"
 	"github.com/gin-gonic/gin"
 )
 

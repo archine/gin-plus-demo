@@ -2,10 +2,10 @@ package main
 
 import (
 	_ "gin-plus-demo/controller"
-	"github.com/archine/gin-plus/v2/application"
+	"github.com/archine/gin-plus/v3/application"
 )
 
-//go:generate mvc2
+//go:generate gp-ast
 func main() {
 	application.Default().Run()
 }
